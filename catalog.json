@@ -1,0 +1,14 @@
+[
+{"id":"pcr-adulto","title":"PCR Adulto (Algoritmo)","category":"Cardiovascular","icon":"❤","image":null},
+{"id":"cad","title":"Cetoacidose Diabética","category":"Metabólico","icon":"◈","image":null},
+{"id":"vm","title":"Ventilação Mecânica Básica","category":"Respiratório","icon":"◌","image":null},
+{"id":"choque","title":"Choque (Abordagem)","category":"Choque","icon":"◍","image":null},
+{"id":"sepse","title":"Sepse e Choque Séptico","category":"Choque","icon":"ϟ","image":null},
+{"id":"pocus","title":"POCUS Básico","category":"POCUS","icon":"⌁","image":null},
+{"id":"hipercalemia","title":"Manejo da Hipercalemia","category":"Metabólico","icon":"≋","image":null},
+{"id":"iot","title":"Intubação Orotraqueal (Roteiro Rápido)","category":"Procedimentos","icon":"↗","image":null},
+{"id":"iam","title":"IAM com Supra de ST (Conduta)","category":"Cardiovascular","icon":"⌁","image":null},
+{"id":"avc","title":"AVC Agudo (Conduta)","category":"Neurológico","icon":"◉","image":null},
+{"id":"asma","title":"Asma Aguda (Manejo)","category":"Respiratório","icon":"◌","image":null},
+{"id":"sedacao","title":"Analgesia e Sedação","category":"Drogas & Doses","icon":"✦","image":null}
+]
