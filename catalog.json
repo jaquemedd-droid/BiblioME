@@ -1,5 +1,5 @@
 {
-  "version": "4.0",
+  "version": "5.0",
   "quick": [
     "pocus",
     "choque",
@@ -85,7 +85,7 @@
       ],
       "pages": [
         {
-          "title": "Choque — fenótipos e drogas vasoativas",
+          "title": "Choque — fenótipos, metas e drogas vasoativas",
           "image": "./assets/infograficos/cardiovascular/choque-vasoativos.png"
         }
       ]
@@ -165,20 +165,8 @@
       ],
       "pages": [
         {
-          "title": "Visão geral",
-          "image": "./assets/infograficos/cardiovascular/sincope-1.png"
-        },
-        {
-          "title": "Causas",
-          "image": "./assets/infograficos/cardiovascular/sincope-2.png"
-        },
-        {
-          "title": "Investigação",
-          "image": "./assets/infograficos/cardiovascular/sincope-3.png"
-        },
-        {
-          "title": "Conduta e alta",
-          "image": "./assets/infograficos/cardiovascular/sincope-4.png"
+          "title": "Síncope — avaliação e manejo no pronto-socorro",
+          "image": "./assets/infograficos/cardiovascular/sincope.png"
         }
       ]
     },

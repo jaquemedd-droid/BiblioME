@@ -1,20 +1,19 @@
-# BiblioME v4
+# BiblioME v5
 
-Categoria modelo implementada: Cardiovascular.
+Cardiovascular — integração de imagens reais recuperadas da conversa:
 
-Inclui:
-- PCR, Choque e Síncope preparados para imagens reais
-- visualização por páginas
+- Choque: imagem real integrada
+- Síncope: imagem real integrada, em uma página completa
+- PCR: estrutura pronta, mas o arquivo original isolado do infográfico ainda não foi localizado; permanece como placeholder
+
+Funcionalidades mantidas:
+- abertura do card
+- visualização do infográfico
 - tela cheia
 - Favoritos
 - Recentes
-- cache das imagens para uso offline após a primeira abertura
-- fallback amigável quando a imagem ainda não foi enviada
+- cache para uso offline após a primeira abertura
 
-Arquivos esperados:
-assets/infograficos/cardiovascular/pcr-adulto.png
+Arquivos:
 assets/infograficos/cardiovascular/choque-vasoativos.png
-assets/infograficos/cardiovascular/sincope-1.png
-assets/infograficos/cardiovascular/sincope-2.png
-assets/infograficos/cardiovascular/sincope-3.png
-assets/infograficos/cardiovascular/sincope-4.png
+assets/infograficos/cardiovascular/sincope.png
