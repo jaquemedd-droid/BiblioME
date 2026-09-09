@@ -11,49 +11,49 @@
       "id": "cardiovascular",
       "name": "Cardiovascular",
       "icon": "❤️",
-      "description": "Choque, síncope, arritmias e emergências cardiovasculares."
+      "description": "PCR, choque, síncope e emergências cardiovasculares."
     },
     {
       "id": "neurologia",
       "name": "Neurologia",
       "icon": "🧠",
-      "description": "AVC, NIHSS e emergências neurológicas."
+      "description": "AVC, NIHSS, síncope neurológica diferencial e outras emergências."
+    },
+    {
+      "id": "respiratorio",
+      "name": "Respiratório",
+      "icon": "🫁",
+      "description": "Insuficiência respiratória, asma, DPOC, TEP e suporte respiratório."
     },
     {
       "id": "pocus",
       "name": "POCUS",
-      "icon": "🩻",
-      "description": "RUSH, cardíaco, bexiga e janelas essenciais."
+      "icon": "📡",
+      "description": "Cardíaco, pulmonar, abdome, bexiga e RUSH."
     },
     {
       "id": "procedimentos",
       "name": "Procedimentos",
       "icon": "🩺",
-      "description": "IOT, VM e procedimentos de emergência."
-    },
-    {
-      "id": "toxicologia",
-      "name": "Toxicologia",
-      "icon": "☠️",
-      "description": "Toxidromes, intoxicações e acidentes peçonhentos."
-    },
-    {
-      "id": "emergencias",
-      "name": "Emergências Clínicas",
-      "icon": "🚨",
-      "description": "Sepse, agitação e mapas de alta prioridade."
+      "description": "IOT em sequência rápida e ventilação mecânica básica."
     },
     {
       "id": "trauma",
-      "name": "Trauma & Queimaduras",
-      "icon": "🔥",
-      "description": "Grande queimado e trauma."
+      "name": "Trauma",
+      "icon": "🦴",
+      "description": "ATLS, avaliação inicial, queimaduras e outras emergências traumáticas."
     },
     {
-      "id": "infectologia",
-      "name": "Infectologia",
-      "icon": "🦠",
-      "description": "Sepse, antibióticos e infecções graves."
+      "id": "toxicologia",
+      "name": "Intoxicações",
+      "icon": "☣️",
+      "description": "Toxidromes, agrotóxicos, medicamentos e acidentes peçonhentos."
+    },
+    {
+      "id": "emergencias",
+      "name": "Emergências",
+      "icon": "🚨",
+      "description": "Sepse, agitação psicomotora e outras emergências clínicas."
     },
     {
       "id": "oncologia",
@@ -289,6 +289,21 @@
       ],
       "pages": [
         "Classificação e manejo"
+      ]
+    },
+    {
+      "id": "pcr",
+      "title": "Parada Cardiorrespiratória — PCR",
+      "category": "cardiovascular",
+      "icon": "❤️‍🩹",
+      "tags": [
+        "PCR",
+        "RCP",
+        "ACLS",
+        "parada cardiorrespiratória"
+      ],
+      "pages": [
+        "PCR — mapa visual"
       ]
     }
   ]
