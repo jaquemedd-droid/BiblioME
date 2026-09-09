@@ -1,4 +1,14 @@
-# BiblioME v1 funcional
-Implementa: Início → Categoria → Infográfico, Consulta Rápida (POCUS, Choque, Drogas, IOT, VM), busca, favoritos, recentes, navegação por páginas e PWA básica.
+# BiblioME v3
 
-A pasta `assets/infograficos/` está pronta para receber as imagens reais. O viewer ainda mostra placeholders; o próximo passo é ligar cada página do `catalog.json` ao arquivo de imagem correspondente.
+Atualizações:
+- Procedimentos: apenas IOT em sequência rápida + Ventilação Mecânica Básica
+- Cardiovascular: adicionada Parada Cardiorrespiratória (PCR)
+- Nova categoria: Trauma
+- Trauma: Atendimento a Queimaduras
+- Transferência intra-hospitalar removida
+- Consulta Rápida mantida: POCUS, Choque, Drogas, IOT e VM
+- Pasta interna e pacote agora nomeados corretamente como BiblioME_v3
+- Cache do service worker atualizado para bibliome-v3
+
+Próximo passo:
+Inserir as imagens reais na pasta assets/infograficos e vincular cada página do catalog.json ao arquivo correspondente.
