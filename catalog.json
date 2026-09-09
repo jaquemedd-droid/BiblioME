@@ -1,14 +1,295 @@
-[
-{"id":"pcr-adulto","title":"PCR Adulto (Algoritmo)","category":"Cardiovascular","icon":"❤","image":null},
-{"id":"cad","title":"Cetoacidose Diabética","category":"Metabólico","icon":"◈","image":null},
-{"id":"vm","title":"Ventilação Mecânica Básica","category":"Respiratório","icon":"◌","image":null},
-{"id":"choque","title":"Choque (Abordagem)","category":"Choque","icon":"◍","image":null},
-{"id":"sepse","title":"Sepse e Choque Séptico","category":"Choque","icon":"ϟ","image":null},
-{"id":"pocus","title":"POCUS Básico","category":"POCUS","icon":"⌁","image":null},
-{"id":"hipercalemia","title":"Manejo da Hipercalemia","category":"Metabólico","icon":"≋","image":null},
-{"id":"iot","title":"Intubação Orotraqueal (Roteiro Rápido)","category":"Procedimentos","icon":"↗","image":null},
-{"id":"iam","title":"IAM com Supra de ST (Conduta)","category":"Cardiovascular","icon":"⌁","image":null},
-{"id":"avc","title":"AVC Agudo (Conduta)","category":"Neurológico","icon":"◉","image":null},
-{"id":"asma","title":"Asma Aguda (Manejo)","category":"Respiratório","icon":"◌","image":null},
-{"id":"sedacao","title":"Analgesia e Sedação","category":"Drogas & Doses","icon":"✦","image":null}
-]
+{
+  "quick": [
+    "pocus",
+    "choque",
+    "drogas",
+    "iot",
+    "vm"
+  ],
+  "categories": [
+    {
+      "id": "cardiovascular",
+      "name": "Cardiovascular",
+      "icon": "❤️",
+      "description": "Choque, síncope, arritmias e emergências cardiovasculares."
+    },
+    {
+      "id": "neurologia",
+      "name": "Neurologia",
+      "icon": "🧠",
+      "description": "AVC, NIHSS e emergências neurológicas."
+    },
+    {
+      "id": "pocus",
+      "name": "POCUS",
+      "icon": "🩻",
+      "description": "RUSH, cardíaco, bexiga e janelas essenciais."
+    },
+    {
+      "id": "procedimentos",
+      "name": "Procedimentos",
+      "icon": "🩺",
+      "description": "IOT, VM e procedimentos de emergência."
+    },
+    {
+      "id": "toxicologia",
+      "name": "Toxicologia",
+      "icon": "☠️",
+      "description": "Toxidromes, intoxicações e acidentes peçonhentos."
+    },
+    {
+      "id": "emergencias",
+      "name": "Emergências Clínicas",
+      "icon": "🚨",
+      "description": "Sepse, agitação e mapas de alta prioridade."
+    },
+    {
+      "id": "trauma",
+      "name": "Trauma & Queimaduras",
+      "icon": "🔥",
+      "description": "Grande queimado e trauma."
+    },
+    {
+      "id": "infectologia",
+      "name": "Infectologia",
+      "icon": "🦠",
+      "description": "Sepse, antibióticos e infecções graves."
+    },
+    {
+      "id": "oncologia",
+      "name": "Oncologia",
+      "icon": "🎗️",
+      "description": "Emergências oncológicas."
+    }
+  ],
+  "maps": [
+    {
+      "id": "pocus",
+      "title": "POCUS",
+      "category": "pocus",
+      "icon": "🩻",
+      "tags": [
+        "ultrassom",
+        "beira-leito"
+      ],
+      "pages": [
+        "POCUS — índice visual"
+      ]
+    },
+    {
+      "id": "choque",
+      "title": "Choque",
+      "category": "cardiovascular",
+      "icon": "🫀",
+      "tags": [
+        "choque",
+        "vasoativos",
+        "RUSH"
+      ],
+      "pages": [
+        "Choque — fenótipos e drogas vasoativas"
+      ]
+    },
+    {
+      "id": "drogas",
+      "title": "Drogas",
+      "category": "emergencias",
+      "icon": "💉",
+      "tags": [
+        "doses",
+        "vasoativos",
+        "sedação"
+      ],
+      "pages": [
+        "Drogas — consulta rápida"
+      ]
+    },
+    {
+      "id": "iot",
+      "title": "IOT",
+      "category": "procedimentos",
+      "icon": "🫁",
+      "tags": [
+        "intubação",
+        "ISR"
+      ],
+      "pages": [
+        "Intubação em sequência rápida"
+      ]
+    },
+    {
+      "id": "vm",
+      "title": "Ventilação Mecânica",
+      "category": "procedimentos",
+      "icon": "⚙️",
+      "tags": [
+        "VM",
+        "ventilação"
+      ],
+      "pages": [
+        "Ventilação mecânica básica"
+      ]
+    },
+    {
+      "id": "sincope",
+      "title": "Síncope",
+      "category": "cardiovascular",
+      "icon": "⚡",
+      "tags": [
+        "síncope",
+        "alto risco",
+        "ECG"
+      ],
+      "pages": [
+        "Visão geral",
+        "Causas",
+        "Investigação",
+        "Conduta e alta"
+      ]
+    },
+    {
+      "id": "avc2026",
+      "title": "AVC Isquêmico — Diretriz 2026",
+      "category": "neurologia",
+      "icon": "🧠",
+      "tags": [
+        "AVC",
+        "trombólise",
+        "trombectomia"
+      ],
+      "pages": [
+        "Página 1",
+        "Página 2",
+        "Página 3",
+        "Página 4"
+      ]
+    },
+    {
+      "id": "nihss",
+      "title": "NIHSS",
+      "category": "neurologia",
+      "icon": "📋",
+      "tags": [
+        "AVC",
+        "escala",
+        "NIHSS"
+      ],
+      "pages": [
+        "Mapa visual"
+      ]
+    },
+    {
+      "id": "rush",
+      "title": "POCUS — Protocolo RUSH",
+      "category": "pocus",
+      "icon": "🩻",
+      "tags": [
+        "RUSH",
+        "choque",
+        "POCUS"
+      ],
+      "pages": [
+        "Bomba, tanque e canos"
+      ]
+    },
+    {
+      "id": "pocus-cardiaco",
+      "title": "POCUS Cardíaco",
+      "category": "pocus",
+      "icon": "❤️‍🩹",
+      "tags": [
+        "POCUS",
+        "cardíaco",
+        "janelas"
+      ],
+      "pages": [
+        "Janelas básicas"
+      ]
+    },
+    {
+      "id": "pocus-bexiga",
+      "title": "POCUS Bexiga",
+      "category": "pocus",
+      "icon": "🔎",
+      "tags": [
+        "POCUS",
+        "bexiga",
+        "volume vesical"
+      ],
+      "pages": [
+        "Mapa visual"
+      ]
+    },
+    {
+      "id": "sepse",
+      "title": "Sepse 2026",
+      "category": "emergencias",
+      "icon": "🧫",
+      "tags": [
+        "sepse",
+        "choque séptico",
+        "noradrenalina"
+      ],
+      "pages": [
+        "Mapa visual"
+      ]
+    },
+    {
+      "id": "agitacao",
+      "title": "Agitação Psicomotora",
+      "category": "emergencias",
+      "icon": "🧠",
+      "tags": [
+        "agitação",
+        "sedação",
+        "contenção"
+      ],
+      "pages": [
+        "Manejo"
+      ]
+    },
+    {
+      "id": "queimaduras",
+      "title": "Atendimento a Queimaduras",
+      "category": "trauma",
+      "icon": "🔥",
+      "tags": [
+        "queimadura",
+        "Parkland",
+        "escarotomia"
+      ],
+      "pages": [
+        "ABCDE",
+        "Curativos e cobertura"
+      ]
+    },
+    {
+      "id": "oncologicas",
+      "title": "Emergências Oncológicas",
+      "category": "oncologia",
+      "icon": "🎗️",
+      "tags": [
+        "SLT",
+        "neutropenia febril",
+        "hipercalcemia"
+      ],
+      "pages": [
+        "Resumo"
+      ]
+    },
+    {
+      "id": "escorpionico",
+      "title": "Acidente Escorpiônico",
+      "category": "toxicologia",
+      "icon": "🦂",
+      "tags": [
+        "escorpião",
+        "soro",
+        "autonômico"
+      ],
+      "pages": [
+        "Classificação e manejo"
+      ]
+    }
+  ]
+}
