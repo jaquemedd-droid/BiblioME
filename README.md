@@ -1,14 +1,20 @@
-# BiblioME v3
+# BiblioME v4
 
-Atualizações:
-- Procedimentos: apenas IOT em sequência rápida + Ventilação Mecânica Básica
-- Cardiovascular: adicionada Parada Cardiorrespiratória (PCR)
-- Nova categoria: Trauma
-- Trauma: Atendimento a Queimaduras
-- Transferência intra-hospitalar removida
-- Consulta Rápida mantida: POCUS, Choque, Drogas, IOT e VM
-- Pasta interna e pacote agora nomeados corretamente como BiblioME_v3
-- Cache do service worker atualizado para bibliome-v3
+Categoria modelo implementada: Cardiovascular.
 
-Próximo passo:
-Inserir as imagens reais na pasta assets/infograficos e vincular cada página do catalog.json ao arquivo correspondente.
+Inclui:
+- PCR, Choque e Síncope preparados para imagens reais
+- visualização por páginas
+- tela cheia
+- Favoritos
+- Recentes
+- cache das imagens para uso offline após a primeira abertura
+- fallback amigável quando a imagem ainda não foi enviada
+
+Arquivos esperados:
+assets/infograficos/cardiovascular/pcr-adulto.png
+assets/infograficos/cardiovascular/choque-vasoativos.png
+assets/infograficos/cardiovascular/sincope-1.png
+assets/infograficos/cardiovascular/sincope-2.png
+assets/infograficos/cardiovascular/sincope-3.png
+assets/infograficos/cardiovascular/sincope-4.png

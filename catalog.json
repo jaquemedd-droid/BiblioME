@@ -1,5 +1,5 @@
 {
-  "version": "3.0",
+  "version": "4.0",
   "quick": [
     "pocus",
     "choque",
@@ -68,7 +68,9 @@
         "beira-leito"
       ],
       "pages": [
-        "POCUS — índice visual"
+        {
+          "title": "POCUS — índice visual"
+        }
       ]
     },
     {
@@ -82,7 +84,10 @@
         "RUSH"
       ],
       "pages": [
-        "Choque — fenótipos e drogas vasoativas"
+        {
+          "title": "Choque — fenótipos e drogas vasoativas",
+          "image": "./assets/infograficos/cardiovascular/choque-vasoativos.png"
+        }
       ]
     },
     {
@@ -96,7 +101,9 @@
         "sedação"
       ],
       "pages": [
-        "Drogas — consulta rápida"
+        {
+          "title": "Drogas — consulta rápida"
+        }
       ]
     },
     {
@@ -109,7 +116,9 @@
         "ISR"
       ],
       "pages": [
-        "Intubação em sequência rápida"
+        {
+          "title": "Intubação em sequência rápida"
+        }
       ]
     },
     {
@@ -122,7 +131,9 @@
         "ventilação"
       ],
       "pages": [
-        "Ventilação mecânica básica"
+        {
+          "title": "Ventilação mecânica básica"
+        }
       ]
     },
     {
@@ -136,7 +147,10 @@
         "reanimação"
       ],
       "pages": [
-        "PCR adulto — algoritmo"
+        {
+          "title": "PCR adulto — algoritmo",
+          "image": "./assets/infograficos/cardiovascular/pcr-adulto.png"
+        }
       ]
     },
     {
@@ -150,10 +164,22 @@
         "ECG"
       ],
       "pages": [
-        "Visão geral",
-        "Causas",
-        "Investigação",
-        "Conduta e alta"
+        {
+          "title": "Visão geral",
+          "image": "./assets/infograficos/cardiovascular/sincope-1.png"
+        },
+        {
+          "title": "Causas",
+          "image": "./assets/infograficos/cardiovascular/sincope-2.png"
+        },
+        {
+          "title": "Investigação",
+          "image": "./assets/infograficos/cardiovascular/sincope-3.png"
+        },
+        {
+          "title": "Conduta e alta",
+          "image": "./assets/infograficos/cardiovascular/sincope-4.png"
+        }
       ]
     },
     {
@@ -167,10 +193,18 @@
         "trombectomia"
       ],
       "pages": [
-        "Página 1",
-        "Página 2",
-        "Página 3",
-        "Página 4"
+        {
+          "title": "Página 1"
+        },
+        {
+          "title": "Página 2"
+        },
+        {
+          "title": "Página 3"
+        },
+        {
+          "title": "Página 4"
+        }
       ]
     },
     {
@@ -184,7 +218,9 @@
         "NIHSS"
       ],
       "pages": [
-        "Mapa visual"
+        {
+          "title": "Mapa visual"
+        }
       ]
     },
     {
@@ -198,7 +234,9 @@
         "POCUS"
       ],
       "pages": [
-        "Bomba, tanque e canos"
+        {
+          "title": "Bomba, tanque e canos"
+        }
       ]
     },
     {
@@ -212,7 +250,9 @@
         "janelas"
       ],
       "pages": [
-        "Janelas básicas"
+        {
+          "title": "Janelas básicas"
+        }
       ]
     },
     {
@@ -226,7 +266,9 @@
         "volume vesical"
       ],
       "pages": [
-        "Mapa visual"
+        {
+          "title": "Mapa visual"
+        }
       ]
     },
     {
@@ -240,8 +282,12 @@
         "escarotomia"
       ],
       "pages": [
-        "Grande queimado — ABCDE",
-        "Curativos e cobertura"
+        {
+          "title": "Grande queimado — ABCDE"
+        },
+        {
+          "title": "Curativos e cobertura"
+        }
       ]
     },
     {
@@ -255,7 +301,9 @@
         "noradrenalina"
       ],
       "pages": [
-        "Mapa visual"
+        {
+          "title": "Mapa visual"
+        }
       ]
     },
     {
@@ -269,7 +317,9 @@
         "contenção"
       ],
       "pages": [
-        "Manejo"
+        {
+          "title": "Manejo"
+        }
       ]
     },
     {
@@ -283,7 +333,9 @@
         "hipercalcemia"
       ],
       "pages": [
-        "Resumo"
+        {
+          "title": "Resumo"
+        }
       ]
     },
     {
@@ -297,7 +349,9 @@
         "autonômico"
       ],
       "pages": [
-        "Classificação e manejo"
+        {
+          "title": "Classificação e manejo"
+        }
       ]
     }
   ]
