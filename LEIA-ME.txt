@@ -1,0 +1,9 @@
+BiblioME 1.0
+
+Conteúdo: 120 itens individuais.
+Inclui 99 infográficos de Cardiologia, coleção de urgência, analgosedação e mapas previamente incorporados.
+
+Publicação simples: envie todo o conteúdo desta pasta para um host estático (ex.: Cloudflare Pages).
+No iPhone/iPad: abrir no Safari > Compartilhar > Adicionar à Tela de Início.
+Favoritos ficam salvos no próprio dispositivo.
+O service worker guarda o app e armazena infográficos em cache conforme forem abertos.
